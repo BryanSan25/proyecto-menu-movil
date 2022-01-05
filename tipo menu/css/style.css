@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+} 
+body {
+    background-color: rgb(1, 12, 61);
+    color: rgb(218, 218, 218);
+    overflow-x: hidden;
+}
+body nav .nav-item-p {
+    padding: 20px;
+    border-bottom: .5px solid rgb(17, 17, 63);
+}
+body nav .nav-item-p:nth-child(1) {
+    padding: 0px;
+}
+body nav .nav-item-p:nth-child(2) {
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+.container-header-movil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+header .container-header-movil h3 {
+    color:rgb(0, 162, 255);
+}
+.flex-menu-movil-item-p, .flex-menu-movil-item-p-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+i {
+    font-size: 32px;
+    color: rgb(1, 12, 61);
+}
+nav .container-info-menu {
+    width: 85%;
+    position: absolute;
+    right: -100%;
+    background-color: rgb(5, 0, 51);
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 0.25s ease-in;
+    display: grid;
+    margin-top: 10px;
+}
+nav .container-info-menu-activo {
+    right: 0%;
+}
+.container-login {
+    display: flex;
+}
+.nav-item-p-login {
+    padding: 20px 0px;
+    border-top: .5px solid rgb(17, 17, 63);
+    width: 50%;
+    text-align: center;
+}
+.nav-item-p-login:nth-child(1) {
+    background-color: rgb(0, 162, 255);
+    color: black;
+    border-bottom-left-radius: 10px;
+}
+
+.sub-cursos-menu-movil div {
+    padding: 18px 40px;
+    background-color: rgb(4, 0, 39);
+    border: .5px solid rgb(17, 17, 63);
+}
+.sub-cursos-menu-movil, .sub-cursos-menu-movil-2-bootcamp  {
+    display: none;
+}
+.sub-cursos-movil-activo {
+    display: block;
+}
+.sub-cursos-menu-movil-2-bootcamp div {
+    padding: 18px 40px;
+    background-color: rgb(4, 0, 39);
+    border: .5px solid rgb(17, 17, 63);
+}
