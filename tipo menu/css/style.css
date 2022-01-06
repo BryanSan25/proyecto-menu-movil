@@ -20,25 +20,21 @@ body nav .nav-item-p:nth-child(2) {
 }
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(4, 0, 39);
 }
 .container-header-movil {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 header .container-header-movil h3 {
-    color:rgb(0, 162, 255);
+    color:rgb(255, 255, 255);
 }
 .flex-menu-movil-item-p, .flex-menu-movil-item-p-2 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-}
-i {
-    font-size: 32px;
-    color: rgb(1, 12, 61);
 }
 nav .container-info-menu {
     width: 85%;
@@ -53,6 +49,9 @@ nav .container-info-menu {
     transition: all 0.25s ease-in;
     display: grid;
     margin-top: 10px;
+}
+.fa-search {
+    padding-right: 15px;
 }
 nav .container-info-menu-activo {
     right: 0%;
@@ -88,3 +87,85 @@ nav .container-info-menu-activo {
     background-color: rgb(4, 0, 39);
     border: .5px solid rgb(17, 17, 63);
 }
+.container-menu-movil {
+    display: flex;
+    align-items: center;
+}
+
+/* IS */
+.login-is-p {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+.login-is-contenedor {
+    background-color: rgb(4, 0, 39);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.mar-is-contenedor div {
+    margin: 0 20px;
+}
+.mar-is-contenedor .close-title-is-p {
+    padding-top: 25px;
+}
+.wrap-is-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(17, 17, 63);
+}
+.login-is-contenedor div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.span-container-align-is {
+    display: flex;
+    align-items: center;
+}
+.login-is-contenedor form {
+    padding-bottom: 20px;
+    margin: 0 20px;
+    margin-right: 40px;
+}
+.login-is-contenedor form div label {
+    display: block;
+    margin: 10px 0;
+    font-size: 13px;
+}
+.login-is-contenedor .wrap-is-cont button {
+    background-color: rgb(5, 0, 51);
+    color: rgb(184, 184, 184);
+    border: .5px solid rgb(14, 6, 80);
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 7px 0;
+    cursor: pointer;
+}
+.login-is-contenedor .wrap-is-cont button:hover {
+    background-color: rgb(10, 4, 65);
+}
+.login-is-contenedor .wrap-is-cont button svg {
+    margin-right: 5px;
+}
+.login-is-contenedor form div {
+    margin: 20px 0;
+}
+.login-is-contenedor form div input {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgb(5, 0, 51);
+    border-radius: 8px;
+    border: 1px solid rgb(17, 17, 63);
+    color: rgb(184, 184, 184);
+}
+.login-is-contenedor form div input:focus {
+    outline: none;
+    background-color: rgb(10, 4, 65);
+}
+
